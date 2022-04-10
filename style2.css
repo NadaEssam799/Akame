@@ -1,0 +1,294 @@
+body{
+   padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    padding: 10px ;
+    height: 20px;
+    line-height: 10px;
+   font-family: Baskerville Old Face;
+    font-size: 20px;
+   transition: all .3s ease-in-out;
+}
+
+nav ul{
+   
+    float: right;
+    margin:0px 10px;
+    padding: 10px 20px 40px 700px;
+}
+
+li:hover{
+    color: chocolate;
+}
+
+.logo{
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    padding: 15px 30px;
+    margin: 0px 60px;
+    font-family: Baskerville Old Face;
+    font-weight: bold;
+}
+
+.container{
+   
+   
+    background-color: white;
+    height: 80px; 
+}
+
+.header{
+    width: 960px;
+    padding: 20px;
+}
+
+.second{
+    height: 100px;
+    background-color: white;
+    text-align: center;   
+    display: block;
+    font-family: Baskerville Old Face;
+}
+.pic{
+    
+    height: 300px;
+    text-align: center;
+    display: flex;
+    padding: 50px;
+}
+
+.head{
+    font-size: 45px;
+}
+
+.one{
+    font-size: 20px;
+    color: dimgray;
+    line-height: 0px;
+}
+.on{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin:30px 80px 30px 150px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    transition: all .3s ease-in-out;
+}
+
+
+.tw{
+   height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid  lightgrey;
+    transition: all .3s ease-in-out;
+}
+
+.th{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin: 30px 150px 30px 80px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    transition: all .3s ease-in-out;
+}
+.two , .s , .t{
+    color: dimgray;
+}   
+
+.thirdclass{
+    height: 450px;
+    padding: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: Baskerville Old Face;
+}
+
+.girl{
+    border-radius: 2%;
+    box-shadow: 30px 30px #eaece5
+ ;
+}
+
+.paragraph{
+    margin: 10px 50px;
+    font-size: 18px;
+    color: dimgray;
+}
+h4{
+    font-size: 40px;
+    line-height: 10px;
+    color: black;
+}
+.h4{
+    color: gray;  
+}
+
+.fourthclass{
+   height: 200px;
+   text-align: center;
+}
+
+h5{
+    line-height: 10px;
+    color: black;
+    font-family: Baskerville Old Face;
+    font-size: 45px;
+}
+.h5{
+    color: gray; 
+    font-size: 20px;
+    line-height: 1px;
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    padding: 20px 420px;
+    font-size: 23px;
+}
+
+.fourthclass ul li{
+     padding: 10px 30px;
+     height: 20px;
+     line-height: 10px;
+}
+
+.fifthclass{
+    
+    padding: 10px 90px 10px 120px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 280px;
+    grid-template-rows: 280px;
+    height: 700px;
+}
+
+.a{
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 5px;
+}
+.b{
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 5px;
+}
+.c{
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    text-align: center;
+    border-radius: 5px;
+}
+.d{
+    grid-column: 3;
+    grid-row: 1;
+    border-radius: 5px;
+}
+.e{
+    grid-column: 3;
+    grid-row: 2;
+    border-radius: 5px;
+}
+
+.six{
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    font-family: Baskerville Old Face;
+    font-size: 20px;
+    color: gray;
+    overflow: hidden;
+}
+.sixclass{
+    height: 1100px;
+}
+.h6{
+    font-size: 50px;
+    line-height: 10px;
+    color: black;
+}
+.boy{
+    padding: 0px 0px 20px 100px;
+}
+.ph{
+    margin: 40px 10px;
+    padding: 20px 0px;
+    line-height: 30px;
+}
+.c1{
+    padding: 20px 10px;
+}
+.c2{
+    padding: 20px 10px;
+}
+.c3{
+    padding: 20px 10px;
+}
+.g1{
+    border: 1px solid lightgrey ;
+    height: 350px;
+    width: 250px;
+    margin: 40px 20px 40px 120px;
+    transition: all .3s ease-in-out;
+}
+.girls{
+    display: flex;
+    height: 500px;
+}
+.g2{
+    border: 1px solid lightgrey ;
+    height: 350px;
+    width: 250px;
+    margin: 40px 20px 40px 20px;
+    transition: all .3s ease-in-out;
+}
+.g3{
+    border: 1px solid lightgrey ;
+    height: 350px;
+    width: 250px;
+    margin: 40px 20px 40px 20px;
+    transition: all .3s ease-in-out;
+}
+.g4{
+    border: 1px solid lightgrey ;
+    height: 350px;
+    width: 250px;
+    margin: 40px 20px 40px 20px;
+   transition: all .3s ease-in-out; 
+}
+.g1:hover{
+    color: chocolate;
+}
+.g2:hover{
+    color: chocolate;
+}
+.g3:hover{
+    color: chocolate;
+}
+.g4:hover{
+    color: chocolate;
+}
+
+.sevenclass{
+    height: 450px;
+    display: flex;
+    background-color: whitesmoke;
+    font-family: Baskerville Old Face;
+}
+.eightclass{
+    height: 400px;
+    display: flex;
+    font-family: Baskerville Old Face;
+}
